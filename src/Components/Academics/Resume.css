@@ -1,0 +1,61 @@
+.grid {
+    display: grid;
+}
+.resume__container {
+    grid-template-columns: repeat(2 , 1fr);
+    column-gap: 1.875rem;
+}
+
+.timeline {
+    background-color: var(--container-color);
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    position: relative;
+}
+
+.timeline__item {
+    position: relative;
+    /* padding: 1.5rem; */
+    padding: 0.5rem 2.5rem 0.5rem 1.5rem;
+}
+
+.timeline__item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline__item::before {
+    content: '';
+    width: 1.75px;
+    position: absolute;
+    background-color: var(--first-color);
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.timeline__date {
+    margin-left: 0.5rem; /* Added margin to separate the text from the vertical line */
+    position: relative;
+    color: #8b88b1;
+    font-size: var(--small-font-size);
+}
+
+.timeline .icon-graduation {
+    position: absolute;
+    left: -0.4375rem;
+    top: 0;
+    font-size: var(--h2-font-size);
+    color: var(--first-color);
+    background-color: var(--container-color);
+    padding: 0.4375rem 0;
+}
+
+.timeline__title {
+    font-size: var(--h2-font-size);
+    margin: 0.5rem 0;
+}
+
+.timeline__score {
+    font-style: italic;
+}

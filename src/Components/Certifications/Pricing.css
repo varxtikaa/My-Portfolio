@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+}
+
+.certificate__container {
+    grid-template-columns: repeat(3 , 1fr);
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.certificate__item {
+    padding: 1.875rem 2.5rem;
+    background-color: var(--container-color);
+    text-align: center;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.certificate__plan {
+    margin: 1.25rem 0;
+    font-size: var(--h2-font-size);
+
+}
+
+.certificate__title , .certificate__support {
+    margin-bottom: 1rem;
+}
+
