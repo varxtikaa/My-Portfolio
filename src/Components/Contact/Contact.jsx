@@ -32,7 +32,7 @@ const Contact = () => {
             <textarea name="" id="" cols="30" rows="10" className='contact__form-input' placeholder='Write your messge'></textarea>
           </div>
 
-          <button className="btn">Send Message</button>
+          <button className="btn contact__send-message">Send Message</button>
 
         </form>
 
