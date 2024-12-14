@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
-import AboutPic from '../../assets/—Pngtree—hand drawn cute girl work_5342245.png';
+// import AboutPic from '../../assets/avatar-1.svg';
+import AboutPic from '../../assets/newLogo.png';
 import AboutBox from './AboutBox';
 
 const About = () => {
@@ -10,7 +11,7 @@ const About = () => {
         About Me
       </h2>
 
-      <div className="about__container grid">
+      <div className="about__container grid"> 
         <img src={AboutPic} alt="" className="about__img" />
 
         <div className="about__data grid">

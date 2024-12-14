@@ -27,6 +27,14 @@ const AboutBox = () => {
                 <span className="about__subtitle">Completed on web development and programming courses</span>
             </div>
         </div>
+        <div className="about__box">
+            <i className="about__icon icon-screen-desktop"></i>
+
+            <div>
+                <h3 className='about__title'>3+ languages</h3>
+                <span className="about__subtitle">learned, on a journey to perfect them.</span>
+            </div>
+        </div>
     </div>
   )
 }

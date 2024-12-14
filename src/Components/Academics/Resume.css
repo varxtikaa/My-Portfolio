@@ -59,3 +59,22 @@
 .timeline__score {
     font-style: italic;
 }
+
+@media screen and (max-width: 1024px){
+    .resume__container {
+        grid-template-columns: 450px;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1.875rem;
+    }
+    .timeline__item {
+        left: 2px;
+    }
+}
+@media screen and (max-width: 576px){
+    .resume__container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+}

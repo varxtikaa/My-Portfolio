@@ -4,6 +4,7 @@
 .skills__filters {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 1.875rem;
     margin-bottom: 2.5rem;
 }
@@ -92,4 +93,25 @@
 .skill__card:hover .skill__level{
     opacity: 1;
     transform: translateY(-35px);
+}
+
+@media screen and (max-width: 1024px){
+    .skills__filters {
+        justify-content: center ;
+    }
+    .skills__container {
+        grid-template-columns: repeat(5, 115px);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .skills__container {
+        grid-template-columns: repeat(4 , 90px);
+    }
+}
+@media screen and (max-width: 460px){
+    .skills__container {
+        grid-template-columns: repeat(3 , 90px);
+    }
 }

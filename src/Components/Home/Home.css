@@ -2,7 +2,7 @@
     position: relative;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
 }
@@ -151,3 +151,13 @@
     bottom: 10%;
     right: 2%;
 }
+
+@media screen and (max-width: 550px){
+    .home{
+
+    }
+    .intro{
+        margin-left: calc(1.5rem + (550px - 100vw) / 10);
+    }
+}
+
