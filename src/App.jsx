@@ -1,4 +1,4 @@
-import './Index.css';
+import './index.css';
 import React from 'react';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Resume from './Components/Academics/Resume';
