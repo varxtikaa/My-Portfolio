@@ -5,7 +5,7 @@
     background-color: var(--body-color);
     border-right: 1px solid rgba(0, 0, 0, 0.05);
     padding: 2.5rem;
-    width: 110px;
+    width: 100px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

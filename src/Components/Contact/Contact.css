@@ -20,9 +20,6 @@
     margin-bottom: .5rem;
 }
 
-.contact__info {
-    margin-left: 1rem;
-}
 
 .contact__title {
     font-size: var(--h3-font-size);
