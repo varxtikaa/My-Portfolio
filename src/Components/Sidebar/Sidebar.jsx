@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './Sidebar.css'
-import Logo from "../../assets/Logo.svg"
 
 const Sidebar = () => {
   const [toggle , showMenu] = useState(false);
