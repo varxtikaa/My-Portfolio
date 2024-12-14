@@ -9,7 +9,8 @@ const Contact = () => {
       <div className="contact__container grid">
         <div className="contact__info">
           <h3 className="contact__title">Ready to debug life? Let's chat tech, code, or caffeine! ☕️</h3>
-          <p className="contact__details">Don't like forms? Send me an email. 👋</p>
+          <p className="contact__details">Don't like forms? 🤔</p>
+          <a href="mailto:vartikayadav.269@gmail.com" className="btn">Email me</a>
         </div>
 
         <form action="" className="contact__form">

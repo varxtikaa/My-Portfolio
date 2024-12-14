@@ -104,14 +104,39 @@
         justify-content: center;
         row-gap: 1.875rem;
     }
+    .skill__card:hover .skill__level{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
 }
 @media screen and (max-width: 768px){
     .skills__container {
         grid-template-columns: repeat(4 , 90px);
+    }
+    .skill__title{
+        padding-left: 0.5rem;
+        font-size: .7rem;
+        top: 1rem;
+        left:0;
+    }
+    .skill__card:hover .skill__level{
+        opacity: 1;
+        font-size: .65rem;
+        transform: translateY(-30px);
+    }
+    .skill__level {
+        left: 0.5rem;
+        padding: 0.19rem 0.2rem;
     }
 }
 @media screen and (max-width: 460px){
     .skills__container {
         grid-template-columns: repeat(3 , 90px);
     }
+    /* .skill__title{
+        padding-left: 0.5rem;
+        font-size: .7rem;
+        top: 1rem;
+        left:0;
+    } */
 }

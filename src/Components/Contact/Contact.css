@@ -11,6 +11,10 @@
     column-gap: 1.875rem;
 }
 
+.contact__details{
+    margin-bottom: .5rem;
+}
+
 .contact__title {
     font-size: var(--h3-font-size);
     margin-bottom: 0.5rem;
