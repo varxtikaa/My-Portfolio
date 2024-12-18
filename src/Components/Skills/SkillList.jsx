@@ -161,13 +161,6 @@ const skillsArray = [
       category: "Soft Skills",
       proficiency: "Intermediate",
     },
-    {
-      id: 21,
-      image: creativity, // Replace with actual image path or URL
-      title: "Creativity",
-      category: "Soft Skills",
-      proficiency: "Intermediate",
-    },
   ];
   
   export default skillsArray;
