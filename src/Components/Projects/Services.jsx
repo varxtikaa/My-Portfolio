@@ -16,7 +16,7 @@ const data = [
   {
     id: 2,
     image: Image2,
-    title: "Navira - Academic Planner & Tutor Platform",
+    title: "EduTrack - Academic Planner & Tutor Platform",
     link: "https://my-portfolio-iota-two-96.vercel.app/#about",
     description:
       "Managed the development of an academic planner and tutor platform, overseeing both student and tutor functionalities, including course management, schedules, and progress tracking.",
