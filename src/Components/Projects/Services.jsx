@@ -17,18 +17,18 @@ const data = [
     id: 2,
     image: Image2,
     title: "Navira - Academic Planner & Tutor Platform",
-    link: "",
+    link: "https://my-portfolio-iota-two-96.vercel.app/#about",
     description:
       "Managed the development of an academic planner and tutor platform, overseeing both student and tutor functionalities, including course management, schedules, and progress tracking.",
   },
-  {
-    id: 3,
-    image: Image3,
-    title: "TaskMaster",
-    link: "",
-    description:
-      "A task management application built with React and Node.js that helps users organize tasks, set deadlines, and track progress with a user-friendly interface and real-time updates.",
-  },
+  //{
+  //   id: 3,
+  //   image: Image3,
+  //   title: "TaskMaster",
+  //   link: "",
+  //   description:
+  //     "A task management application built with React and Node.js that helps users organize tasks, set deadlines, and track progress with a user-friendly interface and real-time updates.",
+  // },
 ];
 
 
