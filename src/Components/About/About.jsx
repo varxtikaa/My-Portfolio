@@ -19,7 +19,7 @@ const About = () => {
             <p className="about__description">
               Hey, I'm Vartika Yadav, a soon-to-be Computer Science Engineer. I'm passionate about full-stack development and enjoy blending creativity with code. I'm also into art and calligraphy, which adds a unique touch to my projects!
             </p>
-            <a href="../../public/Resume.pdf" download = "MyResume.pdf" className="btn">Download Resume</a>
+            <a href="../../public/Resume.pdf" download = "Resume.pdf" className="btn">Download Resume</a>
           </div>
 
           <div className="about__skills grid">
